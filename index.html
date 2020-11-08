@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Main page</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<script>
+		function on() {
+  			document.getElementById("overlayp1").style.display = "block";
+		}
+
+		function off() {
+  			document.getElementById("overlayp1").style.display = "none";
+		}
+	</script>
+</head>
+
+<body>
+	<!--header-->
+	<div class="header" id="headM">
+		<div id="title">HOME</div>
+		<div id="nav" align="center">
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT ME</a></li>
+				<li><a href="resume.html">RESUME</a></li>
+				<li><a href="tutorial.html">TUTORIAL</a></li>
+				<li><a href="artwork.html">ARTWORK</a></li>
+				<li><a href="contact.html">CONTACT ME</a></li>
+			</ul>
+		</div>
+	</div><br>
+	<!--content-->
+	<div class="content" id="contM">
+		<!--side1-->
+		<div id="Mside1">
+			<h1 id="txtMside1">My Personal Website</h1>
+		</div>
+		<!--side2-->
+		<div id="Mside2">
+			<div id="overlayp1" onclick="off()"></div>
+			<img src="media/image/p1.jpg" id="p1" onclick="on()" alt="p1">
+		</div>
+	</div>
+	<!--footer-->
+	<div class="footer" id="footM">
+	
+	</div>
+</body>
+</html>

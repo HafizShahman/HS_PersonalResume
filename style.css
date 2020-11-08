@@ -1,0 +1,276 @@
+@charset "utf-8";
+@font-face {
+    src: url("media/font/OCR-a___.ttf");
+    font-family: ocr;
+}
+@font-face {
+    src: url("media/font/EARTHQUAKE.TTF");
+    font-family: ear;
+}
+@font-face {
+    src: url("media/font/Ghost Story.otf");
+    font-family: ght;
+}
+@font-face {
+    src: url("media/font/tricky jimmy.ttf");
+    font-family: jim;
+}
+/*---------------------------------------------------CSS Document---------------------------------------------------*/
+body {
+    background-image: url("media/image/backg.png");
+    background-size: 50%;
+    font-family: ocr;
+    font-weight: 600;
+}
+.content {
+    padding: 10px;
+}
+#title {
+    margin-left: 60px;
+    font-size: 60px;
+    color: azure;
+	font-family: jim;
+}
+#nav {
+    padding: 20px;
+}
+#nav ul {
+    float: right;
+    margin-right: 50px;
+}
+#nav ul li {
+    list-style-type: none;
+    text-align: right;
+    float: left;
+    margin-left: 20px;
+}
+#nav ul li a {
+    text-align: right;
+    text-decoration: none;
+    margin: 0px 5px;
+    font-size: 20px;
+    text-decoration-color: azure;
+}
+#nav ul li a:link, a:visited {
+    color: white;
+    display: inline-block;
+}
+#nav ul li a:hover, a:active {
+    color: cadetblue;
+    font-size: 25px;
+}
+/*---------------------------------------------------Main page---------------------------------------------------*/
+#Mside1 {
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+#Mside1 #txtMside1 {
+    text-align: center;
+    margin: 25% 0% 0% 20%;
+    font-family: ear;
+    font-size: 100px;
+    color: black;
+}
+#Mside2 {
+    float: right;
+    height: 100%;
+    width: 50%;
+}
+#Mside2 #p1 {
+    display: block;
+    float: right;
+    margin: 10% 30% 0% 0%;
+    width: 320px;
+    height: auto;
+}
+#overlayp1 {
+    background-image: url("media/image/p1.jpg");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+/*---------------------------------------------------about me---------------------------------------------------*/
+#p2 {
+    display: block;
+    margin: 0% 43%;
+    width: 200px;
+    height: auto;
+}
+#overlayp2 {
+    background-image: url("media/image/p2.jpg");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+#txtC2 {
+    text-align: center;
+    margin: 0 10%;
+    font-size: 17px;
+    color: azure;
+}
+.icon {
+    width: 20px;
+}
+/*---------------------------------------------------contact---------------------------------------------------*/
+#continfo {
+    color: azure;
+    margin: 80px 0px;
+    text-align: center;
+}
+.conIcon {
+    width: 40px;
+    margin: 5px 0px;
+}
+/*---------------------------------------------------tutorial---------------------------------------------------*/
+#contT {
+    margin: 10px 0px 0px 0px;
+}
+.vid {
+    margin: 5px
+}
+.vidtxt {
+    font-size: 20px;
+    display: inline;
+    vertical-align: top;
+    color: azure;
+}
+/*---------------------------------------------------artwork---------------------------------------------------*/
+#contA {
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+}
+.button {
+    background-color: #AC4E2F;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.gallery {
+    border: 1px solid #ccc;
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+.responsive {
+    padding: 20px;
+    float: left;
+    width: 15%;
+}
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 40%;
+        margin: 6px 0;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#aMenu {
+    text-align: center;
+}
+.aPage {
+    display: none;
+    padding-left: 8%
+}
+/*---------------------------------------------------resume---------------------------------------------------*/
+#Rside1 {
+    float: left;
+    height: 100%;
+    width: 40%;
+}
+#Rside1 #p3 {
+    display: block;
+    float: left;
+    margin: 20% 0% 0% 20%;
+    width: 300px;
+    height: auto;
+}
+#overlayp3 {
+    background-image: url("media/image/p3.jpg");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+#Rside2 {
+    float: right;
+    height: 100%;
+    width: 60%;
+}
+table th,td{
+	color: azure;
+	padding: 5px;
+}
+.sectab {
+	color: darkcyan;
+	font-family: ght;
+	font-size: 30px
+}
+.dot {
+	width: 13px;
+	padding: 0px 3px;
+}
+
+
+/*---------------------------------------------------scrollbar---------------------------------------------------*/
+/* width */ ::-webkit-scrollbar {
+    width: 10px;
+}
+/* Track */ ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+/* Handle */ ::-webkit-scrollbar-thumb {
+    background: teal;
+    border-radius: 10px;
+}
+/* Handle on hover */ ::-webkit-scrollbar-thumb:hover {
+    background: #00EDED;
+}
